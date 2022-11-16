@@ -1,0 +1,861 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+}
+body{
+    background-color:  rgb(242, 242, 242);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* navbar starts */
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    background-color: aliceblue;
+}
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+.navbar-left img {
+    width: 32px;
+    height: 32px;
+    padding-inline: 25px;
+    cursor: pointer;
+
+}
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+}
+.navbar-right img {
+    width: 20px;
+    height: 20px;
+    padding-inline: 25px;
+    cursor: pointer;
+}
+.navbar-left p {
+    font-size: 16px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 400;
+    padding-inline: 25px;
+    cursor: pointer;
+}
+.navbar-right p{
+    font-size: 16px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 400;
+    padding-inline: 25px;
+    cursor: pointer;
+}
+
+/* navbar ends */
+
+/* image-1 starts */
+
+.image-1 {
+border-bottom: solid  rgb(242, 242, 242);
+border-width: 12px;
+background-color:  rgb(242, 242, 242);
+padding-top: 56px;
+width: 1519px;
+height: 567px;
+}
+.image-1 img {
+
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#model-name {
+  
+    position: relative;
+    top: -405px;
+    right: -867px;
+    width: 475px;
+    height: 100px;
+}
+.image-1 h4 {
+    position: relative;
+    top: -423px;
+    right: -869px;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+}
+.image-1 button {
+    position: relative;
+    background-color: #191919;
+    border-radius: 13px;
+    width: 159px;
+    height: 42px;
+    color: white;
+    font-size: 18px;
+    top: -396px;
+    right: -868px;
+}
+.image-1 button:hover{
+    cursor: pointer;
+    background-color: #191919;
+    opacity: 80%;
+}
+
+/* image-1 ends */
+
+/* image-2 starts */
+
+
+.image-2 {
+    width: 1519px;
+    height: 567px;
+    background-color: rgb(242, 242, 242);
+}
+.image-2 img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-2 h2 {
+    position: relative;
+    top: -396px;
+    right: -256px;
+    font-size: 40px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    color: #191919;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.image-2 h4 {
+    position: relative;
+    top: -380px;
+    right: -256px;
+    font-size: 30px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 400;
+
+}
+.image-2 button {
+    background-color: #191919;
+    border-radius: 13px;
+    width: 159px;
+    height: 42px;
+    color: white;
+    font-size: 18px;
+    top: -350px;
+    right: -254px;
+    position: relative;
+    
+}
+.image-2 button:hover{
+    cursor: pointer;
+    background-color: #191919;
+    opacity: 80%;
+}
+
+/* image-2 ends */
+
+/* image-container starts */
+
+.image-container {
+    background-color:  rgb(242, 242, 242);
+    width: 98.44%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 12px;
+    gap: 15px;
+    margin: 0;
+
+}
+.image-3{
+    width: 730.39px;
+    height: 492.5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.text-model {
+    position: relative;
+    height: 38;
+    width: 417px;
+    left: 151px;
+    top: -427px;
+
+}
+.text-model p {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    left: 118px;
+    top: 13px;
+
+}
+#orange-3 {
+    color: rgb(239, 103, 53);
+    font-size: 20px;
+    position: relative;
+    left: 156px;
+    top: 30px;
+
+}
+#orange-3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  
+}
+.image-3 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-4 {
+    width: 745.39px;
+    height: 492.5px;
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.image-4 h2 {
+    position: relative;
+    top: -434px;
+    right: -245px;
+    font-size: 40px;
+    font-family: "Xiaomi Brand", "Camphor Pro VF", "Camphor Pro", sans-serif;
+    color: rgb(25, 25, 25);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.image-4 p{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    left: 292px;
+    top: -425px;
+}
+#orange-4 {
+    color: rgb(239, 103, 53);
+    font-size: 20px;
+    position: relative;
+    left: 315px;
+    top: -406px;
+}
+#orange-4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  
+}
+.image-4 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.image-5 {
+    width: 730.39px;
+    height: 492.5px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.image-5 h2 {
+    position: relative;
+    top: -464px;
+    right: -180px;
+    font-size: 37px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    color: #191919;
+    font-weight: 600;
+}
+.image-5 p{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 100px;
+    left: 255px;
+    top: -452px;
+}
+#orange-5 {
+    color: rgb(239, 103, 53);
+    font-size: 20px;
+    position: relative;
+    left: 290px;
+    top: -432px;
+}
+#orange-5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  
+}
+.image-5 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-6 {
+    width: 365.19px;
+    height: 492.5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.image-6 h2 {
+    position: relative;
+    top: -460px;
+    right: -26px;
+    font-size: 35px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    color: #191919;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.image-6 p{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 100px;
+    left: 40px;
+    top: -448px;
+}
+#orange-6 {
+    color: rgb(239, 103, 53);
+    font-size: 20px;
+    position: relative;
+    left: 126px;
+    top: -426px;
+}
+#orange-6:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  
+}
+.image-6 img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image-7 {
+    width: 365.19px;
+    height: 492.5px;
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.image-7 h2 {
+    position: relative;
+    top: -463px;
+    right: -73px;
+    font-size: 40px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    color: #191919;
+    font-weight: 600;
+}
+.image-7 p{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    left: 82px;
+    top: -456px;
+}
+#orange-7 {
+    color: rgb(239, 103, 53);
+    font-size: 20px;
+    position: relative;
+    left: 114px;
+    top: -434px;
+}
+#orange-7:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+  
+}
+.image-7 img {
+    width: 100%;
+    height: 70%;
+    margin-top: 145px;
+    cursor: pointer;
+}
+
+/* Slide start */
+
+.slide-container {
+    width: 1386.4px;
+    height: 478.5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(255, 255, 255);
+    margin: 64px;
+
+}
+.slide-image {
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 672.4px;
+    height: 458.98px;
+    background-color: #ffffff;
+}
+.slide-image img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.slide-text h2 {
+    font-size: 40px;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    color: #191919;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 45px;
+    font-family: system-ui;
+}
+.slide-text p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    line-height: 6px;
+    font-family: system-ui;
+}
+.slide-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: space-between;
+
+}
+#slide-learn {
+color: #000000;
+opacity: 70%;
+margin-top: 10px;
+}
+#slide-learn:hover{
+text-decoration: underline;
+color: rgb(0, 0, 0);
+opacity: 100%;
+}
+/* slide ends */
+
+/* Footer starts  */
+
+.footer-main {
+    width: 1409.8.8px;
+    height: 500.6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.2fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: black;
+    padding-top: 70px;
+    padding-left: 44px;
+    padding-right: 43px;
+    padding-bottom: 50px;
+    opacity: 90%;
+
+}
+.shop p:hover{
+ color: #ffffff;
+ text-decoration: underline;
+}
+.shop {
+    color: #ffffff;
+    width: 257px;
+    height: 475;
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #898989;
+}
+
+
+.support {
+    color: #ffffff;
+    width: 257px;
+    height: 465px;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #898989;
+}
+.support p:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.contact {
+    color: #ffffff;
+    width: 257px;
+    height: 465px;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #898989;
+}
+.contact p:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.about {
+    color: #ffffff;
+    width: 258px;
+    height: 465px;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #898989;
+}
+.about p:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.follow {
+    height: 465px;
+    color: #ffffff;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #898989;
+}
+.copy-right {
+    color: #ffffff;
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.cookie {
+    color: #ffffff;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.cookie h3:hover{
+    text-decoration: underline;
+}
+.global {
+    color: #ffffff;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.global h3:hover{
+    text-decoration: underline;
+}
+ .footer-main h3 {
+    padding-bottom: 6px;
+    font-weight: 600;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+    font-size: 15px;
+}
+.footer-main p {
+
+font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+font-weight: 400;
+line-height: 18px;
+color: #737373;
+font-size: 16px;
+}
+.follow img {
+    padding-bottom:35px;
+}
+.follow img:hover{
+    cursor: pointer;
+}
+.follow input {
+    padding: 10px;
+    padding-left: 24px;
+    border: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    background: none;
+    border-radius: 14px;
+    width: 368px;
+    height: 28px
+}
+.follow input::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    opacity: 70%;
+    font-family: Xiaomi Brand,Camphor Pro VF,Camphor Pro,sans-serif;
+}
+.copy-right {
+    padding-top: 32px;
+}
+.cookie {
+    padding-top: 32px;
+}
+.global {
+    padding-top: 26px;
+    padding-left: 250px;
+    display: flex;
+}
+.global h3 {
+    margin-top: 5px;
+}
+.touch {
+    padding-bottom: 0px;
+}
+.global i {
+padding-left: 15px;
+padding-top: 2px;
+}
+.copy-right h3,.cookie h3,.global h3 {
+    opacity: 90%;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* Footer ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
